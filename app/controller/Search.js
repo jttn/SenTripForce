@@ -15,6 +15,9 @@ Ext.define('SenTripForce.controller.Search', {
 
     doSearch: function() {
         var me = this;
+        Ext.Msg.alert('Search For', 
+        	"Location: " + Ext.getCmp('location').getValue()
+        	+ "<br>Start Date: " + Ext.getCmp('startdate').getValue());
         me.getMainPanel().setActiveItem("#schedulerPanel")
     },
 

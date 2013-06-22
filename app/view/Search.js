@@ -17,6 +17,7 @@ Ext.define('SenTripForce.view.Search', {
                 {
                     xtype: 'selectfield',
                     label: 'Location',
+                    id: 'location',
                     options: [
                         {text: 'Orlando',  value: 'orlando'},
                         {text: 'Hawaii', value: 'hawaii'},
@@ -34,6 +35,7 @@ Ext.define('SenTripForce.view.Search', {
                     xtype: 'datepickerfield',
                     label: 'Start Date',
                     name: 'start',
+                    id:"startdate",
                     value: new Date()
                 }
             ]
