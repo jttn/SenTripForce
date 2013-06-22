@@ -19,43 +19,64 @@ Ext.define('SenTripForce.view.SchedulerCmp', {
 			filter : {
 				type : 'string'
 			}
-		}
-		, {
-			header : 'Price',
-			dataIndex : 'price',
+		}, {
+			header : 'Week1',
+			dataIndex : 'w1',
 			style : 'text-align: center;',
 			width : '15%',
 			filter : {
 				type : 'numeric'
+			},
+			renderer : function(value) {
+
+				return value + ' points';
 			}
 		}, {
-			header : 'Change',
-			dataIndex : 'change',
+			header : 'Week2',
+			dataIndex : 'w2',
 			cls : 'centered-cell redgreen-cell',
 			width : '15%',
 			renderer : function(value) {
-				var cls = (value > 0) ? 'green' : 'red';
 
-				return '<span class="' + cls + '">' + value + '</span>';
+				return value + ' points';
 			}
 		}, {
-			header : '% Change',
-			dataIndex : 'pct',
+			header : 'Week3',
+			dataIndex : 'w3',
 			cls : 'centered-cell redgreen-cell',
 			width : '15%',
 			renderer : function(value) {
-				var cls = (value > 0) ? 'green' : 'red';
 
-				return '<span class="' + cls + '">' + value + '</span>';
+				return value + ' points';
 			}
 		}, {
-			header : 'Last Updated',
-			dataIndex : 'updated',
-			hidden : true,
-			style : 'text-align: right; padding-right: 1em;',
-			sortable : false,
-			width : '15%'
+			header : 'Week4',
+			dataIndex : 'w4',
+			cls : 'centered-cell redgreen-cell',
+			width : '15%',
+			renderer : function(value) {
+
+				return value + ' points';
+			}
 		}
+		// , {
+		// header : '% Change',
+		// dataIndex : 'pct',
+		// cls : 'centered-cell redgreen-cell',
+		// width : '15%',
+		// renderer : function(value) {
+		// var cls = (value > 0) ? 'green' : 'red';
+		//
+		// return '<span class="' + cls + '">' + value + '</span>';
+		// }
+		// }, {
+		// header : 'Last Updated',
+		// dataIndex : 'updated',
+		// hidden : true,
+		// style : 'text-align: right; padding-right: 1em;',
+		// sortable : false,
+		// width : '15%'
+		// }
 		]
 
 	}
