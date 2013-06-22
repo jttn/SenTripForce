@@ -4,11 +4,11 @@ Ext.define('SenTripForce.view.Search', {
 	
 	config : {
 		items : [
-		    // Text title
+		    // Title
             {
-                xtype: 'textfield',
-                label: 'Book Your Trip!',
-                name: 'title'
+                xtype : 'toolbar',
+                docked: 'top',
+                title: 'Book Your Trip!'
             },
 		    // Select item to choose the location
 		    {
