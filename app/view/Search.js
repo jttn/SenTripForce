@@ -7,7 +7,6 @@ Ext.define('SenTripForce.view.Search', {
 		    // Select item to choose the location
 		    {
             xtype: 'fieldset',
-            title: 'Select',
             items: [
                 {
                     xtype: 'selectfield',
@@ -50,8 +49,10 @@ Ext.define('SenTripForce.view.Search', {
             // Go button
 		    {
 			xtype : 'button',
+			width: "30%",
+			centered: true,
 			text : 'Go',
-			badgeText : 'Thanks!',
+			badgeText : 'Search',
 			action: 'search'
 			} 
 		
