@@ -11,6 +11,6 @@ Ext.define("SenTripForce.model.RentalReservation", {
 	    { name: 'RentalPropertyId', type: 'string', required: true  },
 	    { name: 'RenterId', type: 'string', required: true  },
 		{ name: 'Date', type: 'date', required: true  }
-	],
-  },
+	]
+  }
 });

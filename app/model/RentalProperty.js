@@ -15,6 +15,6 @@ Ext.define("SenTripForce.model.RentalProperty", {
 		{name: 'State', type: 'string'},
 		{name: 'PostalCode', type: 'string'},
 		{name: 'Phone', type: 'string'}
-	],
-  },
+	]
+  }
 });

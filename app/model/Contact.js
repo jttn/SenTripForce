@@ -11,7 +11,7 @@ Ext.define("SenTripForce.model.Contact", {
 		{ name: 'LastName', type: 'string', required: true  },
 		{ name: 'Title', type: 'string' },
 		{ name: 'Phone', type: 'string', required: true  },
-		{ name: 'Email', type: 'string', required: true  }
+		{ name: 'Email', type: 'string', required: true  },
 	 
 	    //This is a derived field using an anonymous 'convert' 
 		//anonymous function to calculate a string value.
@@ -22,6 +22,6 @@ Ext.define("SenTripForce.model.Contact", {
 				return fn + " " + ln;
 			}
 		},
-	],
-  },
+	]
+  }
 });
