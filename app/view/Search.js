@@ -4,6 +4,12 @@ Ext.define('SenTripForce.view.Search', {
 	
 	config : {
 		items : [
+		    // Text title
+            {
+                xtype: 'textfield',
+                label: 'Book Your Trip!',
+                name: 'title'
+            },
 		    // Select item to choose the location
 		    {
             xtype: 'fieldset',
@@ -26,21 +32,8 @@ Ext.define('SenTripForce.view.Search', {
             items: [
                 {
                     xtype: 'datepickerfield',
-                    label: 'Start',
+                    label: 'Start Date',
                     name: 'start',
-                    value: new Date()
-                }
-            ]
-            },
-        
-            // end date field
-            {
-            xtype: 'fieldset',
-            items: [
-                {
-                    xtype: 'datepickerfield',
-                    label: 'End',
-                    name: 'end',
                     value: new Date()
                 }
             ]
