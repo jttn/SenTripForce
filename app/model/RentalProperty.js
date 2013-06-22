@@ -6,7 +6,8 @@ Ext.define("SenTripForce.model.RentalProperty", {
  
     idProperty: 'Id',
     fields: [
-	    {name: 'Id', type: 'string'},
+	    {name: 'Id', type: 'string', required: true},
+	    {name: 'OwnerId', type: 'string', required: true},
 	    {name: 'Name', type: 'string', required: true  },
 		{name: 'Description', type: 'string' },
 		{name: 'Address', type: 'string'},

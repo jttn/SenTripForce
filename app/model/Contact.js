@@ -1,10 +1,10 @@
-//The Lead model will include whatever fields are necssary to manage.
+//The Contact model will include whatever fields are necssary to manage.
 Ext.define("SenTripForce.model.Contact", {
   extend: "Ext.data.Model",
  
   config: {
  
-    idProperty: 'id',
+    idProperty: 'Id',
     fields: [
 	    { name: 'Id', type: 'string'},
 	    { name: 'FirstName', type: 'string', required: true  },

@@ -4,10 +4,10 @@ Ext.define("SenTripForce.model.RentalReservation", {
  
   config: {
  
-    idProperty: 'id',
+    idProperty: 'Id',
     fields: [
 	    { name: 'Id', type: 'string'},
-	    { name: 'Renter', type: 'string', required: true  },
+	    { name: 'RenterId', type: 'string', required: true  },
 		{ name: 'Date', type: 'date', required: true  }
 	],
   },
