@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry excluding=".git/|resources/|touch/" kind="src" path=""/>
+	<buildpathentry excluding=".git/|app/ux/Demo_Ext.ux.touch.grid/|resources/|touch/" kind="src" path=""/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.mod.launching.INTERPRETER_CONTAINER"/>
 	<buildpathentry kind="con" path="org.eclipse.vjet.eclipse.core.JSNATIVE_CONTAINER/JS Native Types"/>
 	<buildpathentry kind="con" path="org.eclipse.vjet.eclipse.core.BROWSER_CONTAINER/Browser SDK"/>

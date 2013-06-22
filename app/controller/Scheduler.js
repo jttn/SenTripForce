@@ -2,6 +2,7 @@ Ext.define('SenTripForce.controller.Scheduler', {
 extend: 'Ext.app.Controller',
 
     config: {
+		stores:['TestStore'],
         control: {
 			searchButton: {
                 tap: 'doBookIt'
