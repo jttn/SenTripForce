@@ -29,6 +29,8 @@ Ext.application({
     views: [
         'Main'
     ],
+    
+    controllers: ['Search','Scheduler','Reserver'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

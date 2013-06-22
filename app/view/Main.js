@@ -5,6 +5,7 @@ Ext.define('SenTripForce.view.Main', {
 	extend : 'Ext.Panel',
 	xtype : 'main',
 	config : {
+		
 		layout : 'card',
 		items : [ {
 			xtype : "search"
@@ -13,5 +14,6 @@ Ext.define('SenTripForce.view.Main', {
 		}, {
 			xtype : "reserver"
 		} ]
+		
 	}
 });
